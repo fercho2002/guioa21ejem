@@ -5,6 +5,8 @@
 
     include_once("../modelo/cliente.php");
 
+    
+
     $opcion = $_POST["fEnviar"];
     $idCliente = $_POST["fIdCliente"];
     $nombreCliente = $_POST["fNombreCliente"];
